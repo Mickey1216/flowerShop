@@ -1,0 +1,28 @@
+<view class="classficationContainer">
+  <!-- 搜索框 -->
+  <search/>
+  <!-- 根据分类展示花列表 -->
+  <view class="classfication">
+    <!-- 左边标题导航 -->
+    <scroll-view class="scrollAreaLeft"  scroll-y="{{true}}">
+      <view class="{{currentIndex === index ? 'selectedTitle':'typeTitle'}}" wx:for="{{types}}" wx:key="index" >
+        <view class="content" bindtap="getFlowerListByType" data-index="{{index}}">{{item}}</view>
+      </view>
+    </scroll-view>
+    <!-- 右边相关内容显示 -->
+    <scroll-view class="scrollAreaRight" scroll-y="{{true}}">
+      <view class="classifySlideRight" wx:for="{{flowerList}}" wx:key="index" data-item="{{item}}" bindtap="jumpToFlowerDetail">
+        <view class="left">
+          <image src="{{item.imgSrc}}" class="flowerImg"></image>
+        </view>
+        <view class="right">
+          <view class="title">{{item.title}}</view>
+          <view class="price">￥{{item.price}}</view>
+          <view class="sales">
+            <view class="amount">已售{{item.salesAmount}}束</view>
+          </view>
+        </view>
+      </view>
+    </scroll-view>
+  </view>
+</view>

@@ -1,0 +1,155 @@
+.top{
+  display: flex;
+  width: 100%;
+  height: 220rpx;
+  justify-content: center;
+  align-items: center;
+}
+/* 背景图片 */
+.background{
+  width: 100%;
+  height: 220rpx;
+  position:fixed; 
+  background-size:100% 100%;
+  z-index: -1;
+}
+/* 用户基本信息 */
+.userInfo{
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.userImg{
+  width: 130rpx;
+  height: 130rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-left: 40rpx;
+}
+.userName{
+  margin-left: 20rpx;
+  color: #333;
+  font-size: 30rpx;
+}
+/* 收货地址 */
+.address{
+  text-align: center;
+  width: 300rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  color: white;
+  background-color: #FFCC99;
+  border-top-left-radius: 50rpx;
+  border-bottom-left-radius: 50rpx;
+}
+
+/* 中间层 */
+.center{
+  display: flex;
+  text-align: center;
+}
+/* 我的收藏 */
+.collect{
+  margin-left: 2.5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20rpx;
+  width: 45%;
+  height: 140rpx;
+  border: 1px solid #eee;
+  border-radius: 15rpx;
+  background: #f4ebde;
+  box-shadow: 2rpx 5rpx 10rpx 5rpx #DBD7D5;
+}
+.title{
+  margin-top: 10rpx;
+  color: #FFCC99;
+}
+/* 客服 */
+.ke-fu {
+  margin-top: 20rpx;
+  text-align: center;
+  width: 45%;
+  height: 140rpx;
+  border: 1px solid #eee;
+  background: #f4ebde;
+  box-shadow: 2rpx 5rpx 10rpx 5rpx #DBD7D5;
+}
+.kefu-img {
+  width: 60rpx;
+  height: 60rpx;
+}
+.kf-kf {
+  color: #888;
+  font-size: 28rpx;
+}
+
+/* 我的订单 */
+.order{
+  margin: 20rpx 8rpx;
+  width: 97%;
+  height: 200rpx;
+  border: 1rpx solid #eee;
+  border-radius: 10rpx;
+}
+.check{
+  display: flex;
+  height: 80rpx;
+  margin: 10rpx 20rpx;
+  line-height: 80rpx;
+  justify-content: space-between;
+}
+.checkTitle{
+  color: #000;
+  font-size: 34rpx;
+}
+.ckeckAll{
+  color: #888;
+  font-size: 32rpx;
+}
+.orderList{
+  display: flex;
+  justify-content: space-around;
+  margin: 10rpx 20rpx;
+}
+.orderItem{
+  color: #888;
+  font-size: 28rpx;
+  text-align: center;
+}
+.orderItem image{
+  width: 50rpx;
+  height: 50rpx;
+}
+
+/* 其他 */
+.other{
+  margin: 10rpx 8rpx;
+  width: 97%;
+  height: 200rpx;
+  border: 1rpx solid #eee;
+  border-radius: 10rpx;
+}
+.function{
+  color: #000;
+  font-size: 34rpx;
+  margin:20rpx 20rpx;
+}
+.otherList{
+  display: flex;
+  justify-content: space-around;
+  margin: 20rpx 20rpx;
+}
+.otherItem{
+  color: #888;
+  font-size: 28rpx;
+  text-align: center;
+}
+.otherItem image{
+  width: 50rpx;
+  height: 50rpx;
+}
+
+

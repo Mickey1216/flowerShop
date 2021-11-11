@@ -1,0 +1,78 @@
+<view class="my">
+  <!-- 顶部个人基本信息 -->
+  <view class="top">
+    <!-- 背景图片 -->
+    <image class='background' src="../../images/icon/bg.png" mode="aspectFill"></image>
+    <!-- 用户头像和昵称 -->
+    <view class="userInfo">
+      <open-data type="userAvatarUrl" class="userImg"></open-data>
+      <open-data type="userNickName" lang="zh_CN" class="userName"></open-data>
+    </view>
+    <!-- 收货地址 -->
+    <view class="address" bindtap="jumpToAddress">
+      <view class="text fa fa-map-marker">收货地址</view>
+    </view>
+  </view>
+
+  <!-- 收藏 -->
+ <view class="center">
+  <view class="collect" bindtap="jumpToCollect">
+    <view class="collectNum">{{collectionNum}}</view>
+    <view class="title fa fa-star-o">我的收藏</view>
+  </view>
+    <!-- 客服 -->
+  <button class="ke-fu" open-type="contact" bindcontact="handleContact">
+    <image class="kefu-img" src="../../images/icon/service.png"></image>
+    <view class="kf-kf">客服</view>
+  </button>
+ </view>
+
+  <!-- 我的订单 -->
+  <view class="order">
+    <view class="check">
+      <view class="checkTitle">我的订单</view>
+      <view class="ckeckAll">查看全部<icon class="fa fa-angle-right"></icon></view>
+    </view>
+    <view class="orderList">
+      <view class="orderItem">
+        <image src="./../../images/icon/wait-pay.png"></image>
+        <view>待付款</view>
+      </view>
+      <view class="orderItem">
+        <image src="../../images/icon/wait-send.png"></image>
+        <view>待发货</view>
+      </view>
+      <view class="orderItem">
+        <image src="../../images/icon/wait-receive.png"></image>
+        <view>待收获</view>
+      </view>
+      <view class="orderItem">
+        <image src="../../images/icon/finish.png"></image>
+        <view>已完成</view>
+      </view>
+      <view class="orderItem">
+        <image src="../../images/icon/after-sale.png"></image>
+        <view>售后</view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 其他 -->
+  <view class="other">
+    <view class="function">其他功能</view>
+    <view class="otherList">
+      <view class="otherItem" catchtap="call">
+        <image src="../../images/icon/phone.png"></image>
+        <view>电话</view>
+      </view>
+      <view class="otherItem" bindtap="jumpToAbout">
+        <image src="../../images/icon/about.png"></image>
+        <view>关于</view>
+      </view>
+      <view class="otherItem">
+        <image src="../../images/icon/more.png"></image>
+        <view>更多</view>
+      </view> 
+    </view>
+  </view>
+</view>

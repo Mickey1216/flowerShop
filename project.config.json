@@ -1,0 +1,123 @@
+{
+  "cloudfunctionRoot": "cloud/",
+  "description": "项目配置文件",
+  "packOptions": {
+    "ignore": []
+  },
+  "setting": {
+    "urlCheck": true,
+    "es6": true,
+    "enhance": false,
+    "postcss": true,
+    "preloadBackgroundData": false,
+    "minified": true,
+    "newFeature": false,
+    "coverView": true,
+    "nodeModules": false,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "uglifyFileName": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "compileHotReLoad": false,
+    "useMultiFrameRuntime": true,
+    "useApiHook": true,
+    "useApiHostProcess": false,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "enableEngineNative": false,
+    "bundle": false,
+    "useIsolateContext": true,
+    "useCompilerModule": true,
+    "userConfirmedUseCompilerModuleSwitch": false,
+    "userConfirmedBundleSwitch": false,
+    "packNpmManually": false,
+    "packNpmRelationList": [],
+    "minifyWXSS": true
+  },
+  "compileType": "miniprogram",
+  "libVersion": "2.16.1",
+  "appid": "wx38aefbc7f4a5abe3",
+  "projectname": "sunflower",
+  "debugOptions": {
+    "hidedInDevtools": []
+  },
+  "scripts": {},
+  "isGameTourist": false,
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "id": -1,
+          "name": "pages/classification/classification",
+          "pathName": "pages/classification/classification",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/cart/cart",
+          "pathName": "pages/cart/cart",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/home/home",
+          "pathName": "pages/home/home",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/address/address",
+          "pathName": "pages/address/address",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/manageAddress/manageAddress",
+          "pathName": "pages/manageAddress/manageAddress",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/collect/collect",
+          "pathName": "pages/collect/collect",
+          "query": "",
+          "scene": null
+        },
+        {
+          "id": -1,
+          "name": "pages/my/my",
+          "pathName": "pages/my/my",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/account/account",
+          "pathName": "pages/account/account",
+          "scene": null
+        }
+      ]
+    }
+  }
+}
